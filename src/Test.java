@@ -3,7 +3,6 @@ public class Test {
     public static void main(String[] args) {
 
 
-
         YearCheck year1 = new YearCheck(2012);
         year1.isLeap();
 
@@ -17,7 +16,6 @@ public class Test {
 
         YearCheck year4 = new YearCheck(1700);
         year4.isLeap();
-
 
 
         year1.CheckLeapYear();
