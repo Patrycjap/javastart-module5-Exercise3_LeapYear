@@ -17,6 +17,5 @@ public class Test {
         System.out.println("Leap year: " + year.isLeap(2000));
         System.out.println("Leap year: " + year.isLeap(1700));
 
-
     }
 }

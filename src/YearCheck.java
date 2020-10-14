@@ -21,14 +21,4 @@ public class YearCheck {
     }
 
 
-    public void checkLeapYear() {
-        if (isLeap(2000)) {
-            System.out.println(" is leap year");
-        } else {
-            System.out.println(" is not leap year");
-        }
-
-    }
-
-
 }
