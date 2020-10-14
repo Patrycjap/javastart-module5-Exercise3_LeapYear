@@ -1,11 +1,7 @@
 public class YearCheck {
-    private int year;
 
-    public YearCheck(int year) {
-        this.year = year;
-    }
 
-    public void isLeap() {
+    public void showLeap(int year) {
         if (year % 4 == 0 && year % 100 != 0)
             System.out.println(year + " is leap year");
         else if (year % 400 == 0)
@@ -15,7 +11,7 @@ public class YearCheck {
 
     }
 
-    public boolean isLeap2() {
+    public boolean isLeap(int year) {
         if (year % 4 == 0 && year % 100 != 0)
             return true;
         else if (year % 400 == 0)
@@ -25,11 +21,11 @@ public class YearCheck {
     }
 
 
-    void CheckLeapYear() {
-        if (isLeap2()) {
-            System.out.println(year + " is leap year");
+    public void checkLeapYear() {
+        if (isLeap(2000)) {
+            System.out.println(" is leap year");
         } else {
-            System.out.println(year + " is not leap year");
+            System.out.println(" is not leap year");
         }
 
     }

@@ -3,25 +3,20 @@ public class Test {
     public static void main(String[] args) {
 
 
-        YearCheck year1 = new YearCheck(2012);
-        year1.isLeap();
+        YearCheck year = new YearCheck();
 
 
-        YearCheck year2 = new YearCheck(2100);
-        year2.isLeap();
-
-        YearCheck year3 = new YearCheck(2000);
-        year3.isLeap();
-
-
-        YearCheck year4 = new YearCheck(1700);
-        year4.isLeap();
+        year.showLeap(2012);
+        year.showLeap(2100);
+        year.showLeap(2000);
+        year.showLeap(1700);
 
 
-        year1.CheckLeapYear();
-        year2.CheckLeapYear();
-        year3.CheckLeapYear();
-        year4.CheckLeapYear();
+        System.out.println("Leap year: " + year.isLeap(2012));
+        System.out.println("Leap year: " + year.isLeap(2100));
+        System.out.println("Leap year: " + year.isLeap(2000));
+        System.out.println("Leap year: " + year.isLeap(1700));
+
 
     }
 }
