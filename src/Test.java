@@ -5,7 +5,6 @@ public class Test {
 
         YearCheck year = new YearCheck();
 
-
         year.showLeap(2012);
         year.showLeap(2100);
         year.showLeap(2000);
